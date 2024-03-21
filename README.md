@@ -2,9 +2,12 @@
 php composer package to record chrome-php/chrome sessions
 
 Installation: 
-TODO
+```
+composer require divinity76/headless-chromium-recorder
+```
 
 Sample usage:
+Load a youtube video, accept the cookie prompt, and record for 30 seconds:
 ```php
 <?php
 declare(strict_types=1);
