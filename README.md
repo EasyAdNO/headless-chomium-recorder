@@ -64,5 +64,4 @@ $recorder->generateVideo1(
 );
 echo "video saved to: $savepath\n";
 ```
-loads a youtube video, accept the cookie prompt, and gives
-(todo insert sample video here)
+creates: https://rawgit.loltek.net/https://raw.githubusercontent.com/divinity76/headless-chomium-recorder/test-video/example.mp4
