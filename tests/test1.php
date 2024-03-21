@@ -1,14 +1,17 @@
-# headless-chomium-recorder
-php composer package to record chrome-php/chrome sessions
-
-Installation: 
-TODO
-
-Sample usage:
-```php
 <?php
+
 declare(strict_types=1);
-require_once('vendor/autoload.php');
+
+error_reporting(E_ALL);
+set_error_handler(
+    function ($errno, $errstr, $errfile, $errline) {
+        if (error_reporting() & $errno) {
+            throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
+        }
+    }
+);
+require_once __DIR__ . '/../vendor/autoload.php';
+
 $browserFactory = new \HeadlessChromium\BrowserFactory();
 $browserFactory->setOptions([
     'headless' => true,
@@ -60,6 +63,3 @@ $recorder->generateVideo1(
     ]
 );
 echo "video saved to: $savepath\n";
-```
-loads a youtube video, accept the cookie prompt, and gives
-(todo insert sample video here)
