@@ -27,7 +27,7 @@ $page->setViewport(
     width: 1920,
     height: 1080,
 )->await();
-$recorder = new \EasyaANO\HeadlessChromiumRecorder\Recorder($page);
+$recorder = new \EasyAdNO\HeadlessChromiumRecorder\Recorder($page);
 $recorder->startRecording(
     format: 'jpeg',
     //format: 'png', 
