@@ -3,7 +3,7 @@ php composer package to record chrome-php/chrome sessions
 
 Installation: 
 ```
-composer require divinity76/headless-chromium-recorder
+composer require easyadno/headless-chromium-recorder
 ```
 
 Sample usage:
