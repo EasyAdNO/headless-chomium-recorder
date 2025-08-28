@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Divinity76\HeadlessChromiumRecorder;
+namespace EasyAdNO\HeadlessChromiumRecorder;
 
 class Recorder
 {
