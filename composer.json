@@ -1,21 +1,22 @@
 {
-    "name": "divinity76/headless-chromium-recorder",
-    "description": "php composer package to record chrome-php/chrome sessions",
+    "name": "easyadno/headless-chomium-recorder",
+    "description": "PHP composer package to record chrome-php/chrome sessions (EasyAd maintained fork)",
     "type": "library",
     "require": {
-        "php": ">=8.0",
-        "chrome-php/chrome": ">=1.11",
+        "php": ">=8.2",
+        "chrome-php/chrome": "^1.11",
         "ext-sockets": "*"
     },
     "autoload": {
         "psr-4": {
-            "Divinity76\\HeadlessChromiumRecorder\\": "src/"
+            "EasyAdNO\\HeadlessChomiumRecorder\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "hanshenrik",
-            "email": "hans@loltek.net"
+            "name": "EasyAd Team",
+            "email": "dev@easy-ads.com"
         }
-    ]
+    ],
+    "license": "MIT"
 }
